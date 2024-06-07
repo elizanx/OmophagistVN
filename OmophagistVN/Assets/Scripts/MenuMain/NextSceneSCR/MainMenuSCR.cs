@@ -7,7 +7,7 @@ public class MainMenuSCR : MonoBehaviour
 {
    public void Play() 
     {
-        SceneManager.LoadScene("TestMenu");
+        SceneManager.LoadScene("(2)Cutscene");
     }
 
     public void Quit()
