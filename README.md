@@ -8,10 +8,10 @@ Omophagist
 Main: Horror Sub: Psychological 
 
 # Doelstellingen
-Goeie keuzes kiezen om uiteindelijk naar het/de (goede)einde te komen.
+Goede keuzes kiezen om uiteindelijk naar het/de (goede)einde te komen.
 
 # Progressie
-Je komt verder door keuzes te maken die bij de verhalen horen. Je hebt keuzes en door deze keuzes te maken krijg je steeds een andere uitkomst.
+Je komt verder door keuzes te maken die bij het verhaal hoort. Je hebt keuzes en door deze keuzes te maken krijg je steeds een andere uitkomst.
 
 # USP
 Het is een distopia, een wereld waarin alles fout gaat.
