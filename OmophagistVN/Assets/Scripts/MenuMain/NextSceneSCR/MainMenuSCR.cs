@@ -10,6 +10,11 @@ public class MainMenuSCR : MonoBehaviour
         SceneManager.LoadScene("(2)Cutscene");
     }
 
+    public void GoToTesting() 
+    {
+        SceneManager.LoadScene("(3)TestingLoading");
+    }
+
     public void Quit()
     {
         Application.Quit();
