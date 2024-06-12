@@ -45,6 +45,8 @@ public class Dialogue : MonoBehaviour
         }
         Index++;
     }
+
+
    
 
 }
