@@ -24,6 +24,6 @@ public class DisplayText : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 }
