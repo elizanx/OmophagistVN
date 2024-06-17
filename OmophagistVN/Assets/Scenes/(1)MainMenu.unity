@@ -610,6 +610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 4064609010875662598, guid: 4a5bd24bcf383d14f8dda2df82c407bc, type: 3}
+      propertyPath: m_Name
+      value: ExitSettingsBttn
+      objectReference: {fileID: 0}
     - target: {fileID: 6554238670621350435, guid: 4a5bd24bcf383d14f8dda2df82c407bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
