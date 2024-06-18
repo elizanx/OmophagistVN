@@ -3044,6 +3044,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945497531067659302, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7945497531067659302, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -141.5
@@ -3051,6 +3067,22 @@ PrefabInstance:
     - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: DialogueSpeed
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[0]
+      value: The King taps his feet impatiently, releasing a sigh from his lips.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[1]
+      value: "\u2018\u2019It seems that fewer people have been coming to the palace,
+        your highness.\u2019\u2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[2]
+      value: " A servant girl holds up an amphora, depicting the Goddess Artemis
+        on the hunt. It had scratch markings on it, and it felt rough to the touch.
+        It\u2019s use was fulfilled nobly, to satisfy the gluttony of one great ruler
+        of Arcadia."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
