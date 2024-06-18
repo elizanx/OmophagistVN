@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 341953697}
   - component: {fileID: 341953696}
   m_Layer: 5
-  m_Name: ExitSettingsPanel
+  m_Name: ExitSettingsBttn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 73750368}
+      - m_Target: {fileID: 992312281}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

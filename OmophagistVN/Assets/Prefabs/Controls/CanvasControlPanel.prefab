@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 4223048506638692581}
   - component: {fileID: 3535151568880762292}
   m_Layer: 5
-  m_Name: Config
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,7 +523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4223048506638692581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &4201363215381415827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Config
+  m_text: Settings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c5abf7bfe0aa8345bd3c36d09bac4b4, type: 2}
   m_sharedMaterial: {fileID: -165435175546627062, guid: 3c5abf7bfe0aa8345bd3c36d09bac4b4, type: 2}
