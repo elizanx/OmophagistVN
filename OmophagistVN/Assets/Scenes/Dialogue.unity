@@ -508,8 +508,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Load
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -748,8 +748,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1349,8 +1349,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1634,8 +1634,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2163,8 +2163,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2297,8 +2297,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Save
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+  m_sharedMaterial: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3047,11 +3047,15 @@ PrefabInstance:
     - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+      objectReference: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+    - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+      objectReference: {fileID: 1644230745145185040, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
     - target: {fileID: 3822755951729662987, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -3069,6 +3073,10 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: Sentences.Array.data[0]
       value: The King taps his feet impatiently, releasing a sigh from his lips.
       objectReference: {fileID: 0}
@@ -3079,10 +3087,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
       propertyPath: Sentences.Array.data[2]
-      value: " A servant girl holds up an amphora, depicting the Goddess Artemis
-        on the hunt. It had scratch markings on it, and it felt rough to the touch.
-        It\u2019s use was fulfilled nobly, to satisfy the gluttony of one great ruler
-        of Arcadia."
+      value: A servant girl holds up an amphora, depicting the Goddess Artemis on
+        the hunt
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[3]
+      value: It had scratch markings on it, and it felt rough to the touch.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[4]
+      value: "It\u2019s use was fulfilled nobly, to satisfy the gluttony of one great
+        ruler of Arcadia. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[5]
+      value: 'She sighed softly as she poured the wine into the resting glass. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[6]
+      value: "She\u2019d done this all too often, but her one trait couldn\u2019t
+        escape her: Her clumsiness, making the liquid spill on the ground. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128528630936619142, guid: 6c5a608a1986a7948b1cbf1edc8f3300, type: 3}
+      propertyPath: Sentences.Array.data[7]
+      value: "\u2018\u2019I\u2019m so sorry sir!\u2019\u2019 *She furiously cleans
+        with her cloth, visibly shaking in fear."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3101,6 +3130,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 869856147}
+    - target: {fileID: 5748712798090013844, guid: 469b59f5109c64246a34561de13e188d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+    - target: {fileID: 5748712798090013844, guid: 469b59f5109c64246a34561de13e188d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6631277276537937334, guid: 469b59f5109c64246a34561de13e188d, type: 3}
       propertyPath: m_Name
       value: Option2
@@ -3294,6 +3331,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1857417598}
+    - target: {fileID: 6687592559847242584, guid: 452791cdb6afda44dbeca4464cb1144f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 418d88ccd2c224d488143cd66f3869c9, type: 2}
+    - target: {fileID: 6687592559847242584, guid: 452791cdb6afda44dbeca4464cb1144f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
