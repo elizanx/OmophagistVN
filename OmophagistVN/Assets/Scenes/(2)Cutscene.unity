@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1465127847
+--- !u!1001 &1185612095
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -211,25 +211,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4669039638406337868, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669039638406337868, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669039638406337868, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669039638406337868, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669039638406337868, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
+    - target: {fileID: 4472595375452504937, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+      propertyPath: m_text
+      value: Save
       objectReference: {fileID: 0}
     - target: {fileID: 4756445936314104067, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_Name
@@ -255,25 +239,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8341288634740781844, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8341288634740781844, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8341288634740781844, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8341288634740781844, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+    - target: {fileID: 7244687700493924451, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8341288634740781844, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 323
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -284,4 +252,4 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1465127847}
+  - {fileID: 1185612095}

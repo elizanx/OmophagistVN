@@ -21,11 +21,7 @@ public class SoundManager : MonoBehaviour
         AudioListener.volume = VolumeSlider.value;
         Save();
     }
-    void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
+    
     private void Load()
     {
         VolumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
