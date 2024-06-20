@@ -25,10 +25,10 @@ public class ChangingImages : MonoBehaviour
     {
         counter++;
         print(counter);
-        if (counter == 5) //na een bepaald hoeveelheid klikjes veranderd 
+        if (counter == 5) //na een bepaald hoeveelheid klikjes veranderd de image
         {
             currentSprite++;
-            counter = 0; //klikjes reset opnieuw klikken voor andere image
+            counter = 0; //klikjes reset opnieuw,klikken voor andere image
             if (currentSprite >= spriteChoices.Count)
             {
                 currentSprite = 0;
