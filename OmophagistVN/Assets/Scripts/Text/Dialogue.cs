@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
+
 
 public class Dialogue : MonoBehaviour
 {
@@ -9,6 +11,9 @@ public class Dialogue : MonoBehaviour
     public string[] Sentences;
     private int Index = 0;
     public float DialogueSpeed;
+
+    public static Action<int>OnSentenceIncrement;
+
 
 
     void Start()
@@ -20,7 +25,7 @@ public class Dialogue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            NextSentence(); 
+            NextSentence();           
         }
     }
 
@@ -31,6 +36,7 @@ public class Dialogue : MonoBehaviour
         {
             textMeshProUGUI.text = "";
             StartCoroutine(WriteSentence());
+            OnSentenceIncrement?.Invoke(Index);
         }
     }
 
