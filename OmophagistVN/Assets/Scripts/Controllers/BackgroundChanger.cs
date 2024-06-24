@@ -27,6 +27,8 @@ public class BackgroundChanger : MonoBehaviour
 
     void ChangeBackground(int index)
     {
+        
+
       if (index == 2)
       {
             Debug.Log("hoi");
