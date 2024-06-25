@@ -20,9 +20,9 @@ public class BackgroundChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Dialogue.OnSentenceIncrement += ChangeBackground;
-        image = GetComponent<Image>();
-        SceneName = SceneManager.GetActiveScene().name;
+        Dialogue.OnSentenceIncrement += ChangeBackground; 
+        image = GetComponent<Image>(); 
+        SceneName = SceneManager.GetActiveScene().name; 
         KnoppenUit();
         
     }
@@ -66,10 +66,10 @@ public class BackgroundChanger : MonoBehaviour
     {
         
 
-      if ( index == 2)
+      if ( index == 2) 
       {
             Debug.Log("hoi");
-            image.sprite = backgrounds[0];
+            image.sprite = backgrounds[0]; 
             KnoppenAan();
 
         }
