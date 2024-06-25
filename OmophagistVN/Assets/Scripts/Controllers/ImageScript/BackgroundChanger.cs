@@ -33,15 +33,40 @@ public class BackgroundChanger : MonoBehaviour
 
     }
 
-
-
-
     //Eliza, als je wilt dat het dus bij alle scene's anders is moet je gewoon dit erbij doen:
-    //Normaal: if (SceneName == "(jouw scene naam)" && index == (natuurlijk bij welke zin jij het wilt) )
+    //if (SceneName == "(jouw scene naam)" && index == (natuurlijk bij welke zin jij het wilt) )
     // {
     //     Debug.Log("hoi");
     //     image.sprite = backgrounds[0];
     // }
+
+    // Voorbeeld:
+    // if (SceneName == (3)TestingLoading && index == 3)
+    //  {
+    //      Debug.Log("Dit is een voorbeeld");
+    //      image.sprite = backgrounds[1];
+    //  }
+
+    // Ik maak hier een voorbeeld voor als je de knoppen in 2 scenes wilt hebben, maar wel anders wilt maken:
+    //
+    // Scene 1:
+    // if (SceneName == (2)Cutscene && index == 5)
+    // {
+    //     Debug.Log("hoi");
+    //     image.sprite = backgrounds[0];
+    //     KnoppenAan();
+    // }
+
+    // Scene 2:
+    // if (SceneName == (1)MainMenu && index == 2)
+    // {
+    //     Debug.Log("hoi");
+    //     image.sprite = backgrounds[0];
+    //     KnoppenAan();
+    // }
+
+    // Tip voor Joyce: 
+    // index == 0 = index = eerste zin.
 
     void KnoppenUit()
     {
@@ -59,7 +84,6 @@ public class BackgroundChanger : MonoBehaviour
 
 
     
-
 
 
     void ChangeBackground(int index)
