@@ -460,13 +460,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492237135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 778605ec35daea84ca4d3f6e21a421fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 70aed32b44a9fc146b7ffe0904851f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   backgrounds:
+  - {fileID: 21300000, guid: c90e23e4a090a5544bc417ca5800718f, type: 3}
   - {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
-  - {fileID: 21300000, guid: 63c3df0a88656e0449407569e1e4d962, type: 3}
-  sceneName: 
+  - {fileID: 21300000, guid: 19c33b80247c2b347a0065b63e74ee06, type: 3}
 --- !u!1 &1629622877
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,9 +596,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProUGUI: {fileID: 1865299209}
   Sentences:
-  - 1adwawd
-  - 2awdaowndoanwd
-  - 3dwjoajowdjiajdoajwdojaowjdowajwodjaowjdjadojo
+  - 1DitIsWatTekst
+  - 2LalaInPoep
+  - 3MacyIsMacy
+  - 4OkeyDanEventjesKijken
+  - 5LatenWemaarBeginnenHe
   DialogueSpeed: 0.1
 --- !u!114 &1865299209
 MonoBehaviour:
@@ -705,14 +707,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 493387600478587952, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 652719035335979054, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1337122102754718279, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -773,6 +767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4185417658342738063, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4310154767356814474, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -816,34 +814,6 @@ PrefabInstance:
     - target: {fileID: 6216534417120431533, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414735155051385097, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.504
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414735155051385097, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414735155051385097, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.504
-      objectReference: {fileID: 0}
-    - target: {fileID: 6567602333496631966, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8059544230279451759, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8666410291685346680, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.504
-      objectReference: {fileID: 0}
-    - target: {fileID: 8666410291685346680, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

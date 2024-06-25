@@ -9,6 +9,7 @@ public class SpriteChanger : MonoBehaviour
 
     public List<Sprite> sprites;
     private Image image;
+    
     // Start is called before the first frame update
     void Start()
     {

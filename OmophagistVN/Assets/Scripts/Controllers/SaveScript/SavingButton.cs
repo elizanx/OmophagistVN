@@ -7,16 +7,13 @@ public class SavingButton : MonoBehaviour
 
     public void SaveGame()
     {
-        
         string sceneName = SceneManager.GetActiveScene().name;
-
-       
         PlayerPrefs.SetString("SavedScene", sceneName);
         PlayerPrefs.Save();
 
-        Debug.Log("Game opgeslagen! Huidige scene: " + sceneName);
 
-        
         NameChangeSaveScript.UpdateText();
+        Debug.Log("Game opgeslagen! Huidige scene: " + sceneName);
+        
     }
 }
