@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngineInternal;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class BackgroundChanger : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class BackgroundChanger : MonoBehaviour
 
     public GameObject Knop1;
     public GameObject Knop2;
-    public GameObject Knop3;    
+    public GameObject Knop3;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class BackgroundChanger : MonoBehaviour
         image = GetComponent<Image>();
         SceneName = SceneManager.GetActiveScene().name;
         KnoppenUit();
-
+        
     }
 
     // Update is called once per frame
@@ -43,9 +45,9 @@ public class BackgroundChanger : MonoBehaviour
 
     void KnoppenUit()
     {
-        Knop1.gameObject.SetActive(false);
-        Knop2.gameObject.SetActive(false);
-        Knop3.gameObject.SetActive(false);
+      Knop1.gameObject.SetActive(false);
+      Knop2.gameObject.SetActive(false);
+      Knop3.gameObject.SetActive(false);
     }
 
     void KnoppenAan() 
@@ -55,9 +57,12 @@ public class BackgroundChanger : MonoBehaviour
         Knop3.gameObject.SetActive(true);
     }
 
+
     
 
-void ChangeBackground(int index)
+
+
+    void ChangeBackground(int index)
     {
         
 
@@ -67,14 +72,15 @@ void ChangeBackground(int index)
             image.sprite = backgrounds[0];
             KnoppenAan();
 
-      }
+        }
 
 
 
-      if (index == 3)
+        if (index == 3)
       {
             Debug.Log("Dit is de 3e zin");
             image.sprite = backgrounds[2];
-      }
+            KnoppenUit();
+        }
     }
 }
