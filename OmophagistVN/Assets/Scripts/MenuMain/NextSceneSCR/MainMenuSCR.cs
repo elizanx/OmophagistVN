@@ -15,6 +15,11 @@ public class MainMenuSCR : MonoBehaviour
         SceneManager.LoadScene("(3)TestingLoading");
     }
 
+
+    public void Prologue()
+    {
+        SceneManager.LoadScene("Dialogue");
+    }
     public void Quit()
     {
         Application.Quit();

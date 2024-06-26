@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/(3)TestingLoading.unity
     guid: fb9fd239935882a49bd7eced0295e65e
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: 1a2ea7a215d8db44ea7899071e08e17b
   m_configObjects: {}
