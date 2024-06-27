@@ -12,13 +12,16 @@ public class Dialogue : MonoBehaviour
     private int Index = 0;
     public float DialogueSpeed;
 
+    public TextMeshProUGUI nameBox;
+    public string[] Names;
+
     public static Action<int>OnSentenceIncrement;
 
 
 
     void Start()
     {
-        
+        nameBox.text = Names[0];
     }
 
     void Update()
@@ -49,6 +52,9 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(DialogueSpeed);
 
         }
+
+        nameBox.text = Names[Index];
+
         Index++;
     }
 }
