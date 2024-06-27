@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public string[] Sentences;
     private int Index = 0;
     public float DialogueSpeed;
+    
 
     public TextMeshProUGUI nameBox;
     public string[] Names;
@@ -22,10 +23,15 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         nameBox.text = Names[0];
+       Index = 0;
+
     }
 
     void Update()
     {
+
+        
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             NextSentence();           
