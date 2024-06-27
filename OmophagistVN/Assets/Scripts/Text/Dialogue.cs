@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public string[] Sentences;
     private int Index = 0;
     public float DialogueSpeed;
+    
 
     public static Action<int>OnSentenceIncrement;
 
@@ -18,11 +19,15 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
-        
+       Index = 0;
+
     }
 
     void Update()
     {
+
+        
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             NextSentence();           
