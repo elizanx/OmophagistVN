@@ -5,6 +5,7 @@ using UnityEngineInternal;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Reflection;
 
 public class BackgroundChanger : MonoBehaviour
 {
@@ -20,9 +21,9 @@ public class BackgroundChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Dialogue.OnSentenceIncrement += ChangeBackground;
-        image = GetComponent<Image>();
-        SceneName = SceneManager.GetActiveScene().name;
+        Dialogue.OnSentenceIncrement += ChangeBackground; 
+        image = GetComponent<Image>(); 
+        SceneName = SceneManager.GetActiveScene().name; 
         KnoppenUit();
         
     }
@@ -90,11 +91,11 @@ public class BackgroundChanger : MonoBehaviour
     {
         
 
-      if ( index == 2)
+      if ( index == 2) 
       {
-            Debug.Log("hoi");
-            image.sprite = backgrounds[0];
-            KnoppenAan();
+            Debug.Log("bgchange");
+            image.sprite = backgrounds[0]; 
+           
 
         }
 
@@ -104,6 +105,23 @@ public class BackgroundChanger : MonoBehaviour
       {
             Debug.Log("Dit is de 3e zin");
             image.sprite = backgrounds[2];
+            
+        }
+
+        if (index == 6)
+      {
+            Debug.Log("Dit is de 5e zin");
+            image.sprite = backgrounds[2];
+            KnoppenAan();
+
+        }
+
+
+
+        if (index == 7)
+      {
+            Debug.Log("Dit is de 6e zin");
+            image.sprite = backgrounds[3];
             KnoppenUit();
         }
     }

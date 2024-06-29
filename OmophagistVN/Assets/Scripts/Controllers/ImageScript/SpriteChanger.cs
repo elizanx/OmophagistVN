@@ -15,9 +15,7 @@ public class SpriteChanger : MonoBehaviour
     {
         Dialogue.OnSentenceIncrement += ChangeSprites;
         image = GetComponent<Image>();
-
-
-
+        image.sprite = sprites[0];
     }
 
     // Update is called once per frame
@@ -28,14 +26,15 @@ public class SpriteChanger : MonoBehaviour
 
     void ChangeSprites(int index)
     {
-        if (index == 2)
+        if (index == 1)
         {
             //Debug.Log("hoi");
-            image.sprite = sprites[0];
-        }
-        if (index == 3)
-        {
             image.sprite = sprites[1];
+
+        }
+        if (index == 2)
+        {
+            image.sprite = sprites[2];
         }
     }
 }
