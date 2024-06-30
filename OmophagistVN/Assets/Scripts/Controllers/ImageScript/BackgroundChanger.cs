@@ -69,6 +69,8 @@ public class BackgroundChanger : MonoBehaviour
     // Tip voor Joyce: 
     // index == 0 = index = eerste zin.
 
+
+
     void KnoppenUit()
     {
       Knop1.gameObject.SetActive(false);
@@ -95,7 +97,6 @@ public class BackgroundChanger : MonoBehaviour
       {
             Debug.Log("bgchange");
             image.sprite = backgrounds[0]; 
-           
 
         }
 
@@ -105,14 +106,21 @@ public class BackgroundChanger : MonoBehaviour
       {
             Debug.Log("Dit is de 3e zin");
             image.sprite = backgrounds[2];
-            
+            KnoppenAan();
+        }
+
+        if (index == 4)
+        {
+            Debug.Log("Zin 4/ Interactief button");
+            image.sprite = backgrounds[2];
+            KnoppenUit();
         }
 
         if (index == 6)
       {
             Debug.Log("Dit is de 5e zin");
             image.sprite = backgrounds[2];
-            KnoppenAan();
+            
 
         }
 
@@ -122,7 +130,7 @@ public class BackgroundChanger : MonoBehaviour
       {
             Debug.Log("Dit is de 6e zin");
             image.sprite = backgrounds[3];
-            KnoppenUit();
+            
         }
     }
 }
