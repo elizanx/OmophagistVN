@@ -10,7 +10,7 @@ public class LoadScript : MonoBehaviour
         {
             
             string savedSceneName = PlayerPrefs.GetString("SavedScene");
-            SceneManager.LoadScene(savedSceneName);3
+            SceneManager.LoadScene(savedSceneName);
             Debug.Log("Game geladen! Opgeslagen scene: " + savedSceneName);
         }
         else
