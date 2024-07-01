@@ -17,15 +17,15 @@ public class BackgroundChanger : MonoBehaviour
     public GameObject Knop1;
     public GameObject Knop2;
     public GameObject Knop3;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        Dialogue.OnSentenceIncrement += ChangeBackground; 
-        image = GetComponent<Image>(); 
-        SceneName = SceneManager.GetActiveScene().name; 
+        Dialogue.OnSentenceIncrement += ChangeBackground;
+        image = GetComponent<Image>();
+        SceneName = SceneManager.GetActiveScene().name;
         KnoppenUit();
-        
+
     }
 
     // Update is called once per frame
@@ -71,66 +71,148 @@ public class BackgroundChanger : MonoBehaviour
 
 
 
-    void KnoppenUit()
-    {
-      Knop1.gameObject.SetActive(false);
-      Knop2.gameObject.SetActive(false);
-      Knop3.gameObject.SetActive(false);
-    }
-
-    void KnoppenAan() 
-    {
-        Knop1.gameObject.SetActive(true);
-        Knop2.gameObject.SetActive(true);
-        Knop3.gameObject.SetActive(true);
-    }
-
-
-    
-
-
-    void ChangeBackground(int index)
-    {
-        
-
-      if ( index == 2) 
-      {
-            Debug.Log("bgchange");
-            image.sprite = backgrounds[0]; 
-
-        }
-
-
-
-        if (index == 3)
-      {
-            Debug.Log("Dit is de 3e zin");
-            image.sprite = backgrounds[2];
-            KnoppenAan();
-        }
-
-        if (index == 4)
+        void EersteKnop()
         {
-            Debug.Log("Zin 4/ Interactief button");
-            image.sprite = backgrounds[2];
-            KnoppenUit();
+            Knop1.gameObject.SetActive(true);
         }
 
-        if (index == 6)
-      {
-            Debug.Log("Dit is de 5e zin");
-            image.sprite = backgrounds[2];
-            
-
+        void EersteKnopUit()
+        {
+            Knop1.gameObject.SetActive(false);
         }
 
 
-
-        if (index == 7)
-      {
-            Debug.Log("Dit is de 6e zin");
-            image.sprite = backgrounds[3];
-            
+        void KnoppenUit()
+        {
+            Knop1.gameObject.SetActive(false);
+            Knop2.gameObject.SetActive(false);
+            Knop3.gameObject.SetActive(false);
         }
+
+        void KnoppenAan()
+        {
+            Knop1.gameObject.SetActive(true);
+            Knop2.gameObject.SetActive(true);
+            Knop3.gameObject.SetActive(true);
+        }
+
+
+
+
+
+        void ChangeBackground(int index)
+        {
+
+
+            if (SceneName == "Dialogue" && index == 2)
+            {
+                //Debug.Log("bgchange");
+                image.sprite = backgrounds[0];
+
+            }
+
+
+            if (SceneName == "Dialogue" && index == 3)
+            {
+                //Debug.Log("Dit is de 3e zin");
+                image.sprite = backgrounds[3];
+                EersteKnop();
+            }
+
+
+            if (SceneName == "Dialogue" && index == 4)
+            {
+                Debug.Log("Zin 4/ Interactief button");
+                image.sprite = backgrounds[2];
+                EersteKnopUit();
+            }
+
+
+           
+
+
+            //Scene: Keuze1
+            if (SceneName == "Dialogue" && index == 7)
+            {
+                SceneManager.LoadScene("Keuze1");
+            }
+
+            if (SceneName == "Keuze1" && index == 5)
+            {
+                Debug.Log("Werkt dit?");
+                image.sprite = backgrounds[0];
+                EersteKnop();
+            }
+
+            if (SceneName == "Keuze1" && index == 6)
+            {
+                Debug.Log("Werkt dit?");
+                image.sprite = backgrounds[0];
+                EersteKnopUit();
+            }
+
+       
+             //Scene: Keuze2
+            if (SceneName == "Keuze1" && index == 7)
+            {
+                SceneManager.LoadScene("Keuze2");
+            }
+
+            if (SceneName == "Keuze2" && index == 11)
+            {
+                EersteKnop();
+            }
+
+            if (SceneName == "Keuze2" && index == 12)
+            {
+                EersteKnopUit();
+            }
+
+
+            //Scene: Keuze3
+            if (SceneName == "Keuze2" && index == 12)
+            {
+                SceneManager.LoadScene("Keuze3");
+            }
+
+            if (SceneName == "Keuze3" && index == 22)
+            {
+                EersteKnop();
+            }
+
+            if (SceneName == "Keuze3" && index == 23)
+            {
+                EersteKnopUit();
+            }
+
+            //Scene: Keuze4
+            if (SceneName == "Keuze3" && index == 24)
+            {
+                SceneManager.LoadScene("Keuze4");
+            }
+
+            if (SceneName == "Keuze4" && index == 1)
+            {
+                EersteKnop();
+            }
+
+
+            if (SceneName == "Keuze4" && index == 2)
+            {
+                EersteKnopUit();
+            }
+
+            //Scene: Keuze5
+            if (SceneName == "Keuze4" && index == 11)
+            {
+                SceneManager.LoadScene("Keuze5");
+            }
+
+           
+
+
     }
 }
+
+
+

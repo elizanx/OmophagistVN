@@ -26,16 +26,16 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-       // if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
-        //{
-       //     NextSentence();           
-       // }
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        {
+            NextSentence();           
+        }
     }
 
 
    public void NextSentence()
     {
-        NextSentence();
+        //NextSentence();
 
         if (Index <= Sentences.Length - 1)
         {

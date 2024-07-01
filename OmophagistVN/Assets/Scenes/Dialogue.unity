@@ -304,106 +304,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389894451}
   m_CullTransparentMesh: 1
---- !u!1 &542245665
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 542245666}
-  - component: {fileID: 542245669}
-  - component: {fileID: 542245668}
-  - component: {fileID: 542245667}
-  m_Layer: 5
-  m_Name: Sprites2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &542245666
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542245665}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1113544167}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -672, y: -136.93}
-  m_SizeDelta: {x: 571.21, y: 806.14}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &542245667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542245665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b64e5c9be6b12dd46a8518a60eb42e09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
---- !u!114 &542245668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542245665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &542245669
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542245665}
-  m_CullTransparentMesh: 1
 --- !u!1 &658277070
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,11 +696,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &1113544167 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8818448439940986337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-  m_PrefabInstance: {fileID: 1177074390750596809}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1257628680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,17 +1394,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877101765}
   m_CullTransparentMesh: 1
---- !u!114 &2107492180 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5438178092406328235, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-  m_PrefabInstance: {fileID: 1177074390750596809}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1177074390750596809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1538,10 +1422,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1569567846220037702, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 0
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 571.21
       objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3843881
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1326
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1326
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -554
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873576794999514482, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
     - target: {fileID: 5555258861700148055, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1567,15 +1475,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 869856147}
     - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
     - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: m_Enabled
+      propertyPath: m_Color.a
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7225718954365074842, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
@@ -1598,121 +1514,29 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 92ffa771de72aee409c2825a77ec4244, type: 3}
     - target: {fileID: 7961715651678959871, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Name
       value: CanvasDialogue
       objectReference: {fileID: 0}
-    - target: {fileID: 8159900252363910080, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: backgrounds.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8159900252363910080, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: backgrounds.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: c90e23e4a090a5544bc417ca5800718f, type: 3}
-    - target: {fileID: 8159900252363910080, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: backgrounds.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: nameBox
-      value: 
-      objectReference: {fileID: 2107492180}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: DialogueSpeed
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.size
-      value: 11
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[0]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[1]
-      value: Servant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[2]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[3]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[4]
-      value: Servant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[5]
-      value: Servant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[6]
-      value: Lycaon
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[7]
-      value: Servant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[8]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[9]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Names.Array.data[10]
-      value: Narrator
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[2]
-      value: A servant girl, holding an amphora with Artemis depicted on it, pours
-        wine into the King's glass.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[3]
-      value: As usual, her clumsiness causes some to spill.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[4]
-      value: "\u201CI\u2019m so sorry, sir!\u201D she exclaims, trembling and cleaning
-        the spill, expecting his wrath. But this time, there's only silence."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[5]
-      value: "\u201CS...sir?\u201D she whispers, glancing up at him. King Lycaon
-        looks back sternly, crossing his arms."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[6]
-      value: "\u201CYes, you are right. There are fewer people. It seems they would
-        rather pray to Zeus than receive the riches from their great king,\u201D
-        he says bitterly."
+      propertyPath: Sentences.Array.size
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[7]
-      value: "\u201CYes, sir,\u201D the girl replies, used to his cruelty. The lashings
-        and starvation have numbed her fear. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[8]
-      value: ' She meets the eyes of Heraeus, one of Lycaon''s sons, standing behind
-        the king. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[9]
-      value: 'Heraeus, short and stout with muddy brown hair, always tries to please
-        his father. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[10]
-      value: His efforts elicit a small, almost empathetic feeling from her.
+      value: '" "'
       objectReference: {fileID: 0}
     - target: {fileID: 8818448439940986337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Pivot.x
@@ -1796,58 +1620,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.size
-      value: 11
+      value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[6]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[7]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[8]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[9]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[10]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8818448439940986337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 542245666}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
 --- !u!1660057539 &9223372036854775807

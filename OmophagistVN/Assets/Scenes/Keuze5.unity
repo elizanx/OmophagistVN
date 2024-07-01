@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1448792173
+--- !u!1 &232439077
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,10 +131,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1448792176}
-  - component: {fileID: 1448792175}
-  - component: {fileID: 1448792174}
-  - component: {fileID: 1448792177}
+  - component: {fileID: 232439080}
+  - component: {fileID: 232439079}
+  - component: {fileID: 232439078}
+  - component: {fileID: 232439081}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -142,21 +142,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1448792174
+--- !u!81 &232439078
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448792173}
+  m_GameObject: {fileID: 232439077}
   m_Enabled: 1
---- !u!20 &1448792175
+--- !u!20 &232439079
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448792173}
+  m_GameObject: {fileID: 232439077}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -201,13 +201,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1448792176
+--- !u!4 &232439080
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448792173}
+  m_GameObject: {fileID: 232439077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -216,13 +216,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1448792177
+--- !u!82 &232439081
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448792173}
+  m_GameObject: {fileID: 232439077}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -312,7 +312,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1761710202
+--- !u!1001 &1346307204
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -340,6 +340,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2873576794999514482, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
     - target: {fileID: 5555258861700148055, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -364,10 +368,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
-    - target: {fileID: 7042556715405751500, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: m_text
-      value: Focus on cleaning
-      objectReference: {fileID: 0}
+    - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
     - target: {fileID: 7225718954365074842, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -390,15 +394,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.size
-      value: 6
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 634
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -148
       objectReference: {fileID: 0}
     - target: {fileID: 7961715651678959871, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Name
       value: CanvasDialogue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8159900252363910080, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: backgrounds.Array.size
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8159900252363910080, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: backgrounds.Array.data[3]
@@ -406,11 +430,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.data[0]
-      value: Servant
+      value: Narrator
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.data[1]
@@ -434,76 +458,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[0]
-      value: "\u201CYes, sir,\u201D the girl replies, used to his cruelty. "
+      value: 'An eerie silence enveloped the room as they waited. '
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[1]
-      value: The lashings and starvation have numbed her fear. She meets the eyes
-        of Heraeus, one of Lycaon's sons, standing behind the king.
+      value: "Then, a holy light descended from above, illuminating everything and
+        revealing the emergence of a figure\u2014a man with blonde hair that gleamed
+        like the sun."
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[2]
-      value: 'Heraeus, short and stout with muddy brown hair, always tries to please
-        his father. '
+      value: He held a lyre, playing a mesmerizing melody that filled the room with
+        warmth.
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[3]
-      value: His efforts elicit a small, almost empathetic feeling from her.
+      value: His voice hummed softly, enchanting everyone present.
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[4]
-      value: Try to avoid drawing any more attention to yourself.
+      value: His sun-kissed skin and gentle eyes exuded a serene aura that captivated
+        the servant.
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[5]
-      value: Focus on cleaning.
+      value: "Soon, another figure appeared\u2014a woman clad in fur and hunting
+        skins, with antlers on her head and ginger hair dancing around her shoulders. "
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[6]
-      value: '" "'
+      value: She carried an air of light that seemed to complement the man's presence
+        perfectly.
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[7]
-      value: 'Lycaon despises Nyctimus, his silver-haired son, for his recklessness
-        and the chaos he brings. '
+      value: More divine figures began to materialize, each radiating their own unique
+        essence, filling the room with an otherworldly atmosphere.
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[8]
-      value: "Nyctimus's mother, Cyllene, loves him dearly and protects him from
-        his father\u2019s wrath."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[9]
-      value: Despite the hatred from most of his brothers, a few offer him comfort,
-        making him dream of a normal, loving family.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[10]
-      value: But those thoughts vanish as he faces his enraged father.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[11]
-      value: But those thoughts vanish as he faces his enraged father.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[12]
-      value: But those thoughts vanish as he faces his enraged father.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[13]
-      value: But those thoughts vanish as he faces his enraged father.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[14]
-      value: But those thoughts vanish as he faces his enraged father.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: Sentences.Array.data[15]
-      value: But those thoughts vanish as he faces his enraged father.
+      value: '" "'
       objectReference: {fileID: 0}
     - target: {fileID: 8818448439940986337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Pivot.x
@@ -587,32 +585,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
-      propertyPath: sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -622,5 +624,5 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1448792176}
-  - {fileID: 1761710202}
+  - {fileID: 232439080}
+  - {fileID: 1346307204}
