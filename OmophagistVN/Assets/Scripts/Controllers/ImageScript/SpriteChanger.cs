@@ -193,6 +193,48 @@ public class SpriteChanger : MonoBehaviour
         }
 
         //Scene: Keuze8
+        //Aphrodite
+        if (SceneName == "Keuze8" && index == 0)
+        {
+            image.sprite = sprites[0];
+        }
 
+        //HeraZeus
+        if (SceneName == "Keuze8" && index == 1)
+        {
+            image.sprite = sprites[1];
+        }
+
+        //Hestia
+        if(SceneName == "Keuze8" && index == 3)
+        {
+            image.sprite = sprites[3];
+        }
+
+        if (SceneName == "Keuze8" && index == 6)
+        {
+            image.sprite = sprites[6];
+        }
+
+        //Servant
+        if (SceneName == "Keuze8" && index == 4)
+        {
+           image.sprite = sprites[4];
+        }
+
+
+        //Scene: Keuze9
+        //Nyctimus -> Servant 
+        if (SceneName == "Keuze9" && index == 3)
+        {
+            image.sprite = sprites[3];
+        }
+
+
+        //Scene: Keuze10
+        if (SceneName == "Keuze10" && index == 5)
+        {
+            image.sprite = sprites[5];
+        }
     }
 }

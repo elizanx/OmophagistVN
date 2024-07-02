@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Keuze8.unity
     guid: 257b9afe49d77dc4280d9ba3bfda2d8f
+  - enabled: 1
+    path: Assets/Scenes/Keuze9.unity
+    guid: f2219b4d5acf3434cb2516ff5411c604
+  - enabled: 1
+    path: Assets/Scenes/Keuze10.unity
+    guid: 980a82cf570e79048a120a08d4513a8a
   m_configObjects: {}
