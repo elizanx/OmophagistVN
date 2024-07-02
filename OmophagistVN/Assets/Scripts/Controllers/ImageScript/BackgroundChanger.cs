@@ -208,9 +208,27 @@ public class BackgroundChanger : MonoBehaviour
                 SceneManager.LoadScene("Keuze5");
             }
 
-           
+            //Scene: Keuze6
+            if (SceneName == "Keuze5" && index == 8)
+            {
+                SceneManager.LoadScene("Keuze6");
+            }
 
+            if (SceneName == "Keuze6" && index == 7)
+            {
+                EersteKnop();
+            }
 
+            if (SceneName == "Keuze6" && index == 8)
+            {
+                EersteKnopUit();
+            }
+
+            //Scene: Keuze 7
+            if (SceneName == "Keuze7" && index == 16)
+            {
+                SceneManager.LoadScene("Keuze8");
+            }
     }
 }
 

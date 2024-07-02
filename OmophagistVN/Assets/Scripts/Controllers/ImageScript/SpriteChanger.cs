@@ -170,5 +170,29 @@ public class SpriteChanger : MonoBehaviour
         {
             image.sprite = sprites[5];
         }
+
+
+        //Scene: Keuze6
+        //Aphrodite
+        if (SceneName == "Keuze6" && index == 1)
+        {
+            image.sprite = sprites[2];
+        }
+
+        //Ares
+        if (SceneName == "Keuze6" && index == 3)
+        {
+            image.sprite = sprites[4];
+        }
+
+        //Scene: Keuze7
+        //Lycaon
+        if (SceneName == "Keuze7" && index == 4)
+        {
+            image.sprite = sprites[4];
+        }
+
+        //Scene: Keuze8
+
     }
 }

@@ -226,7 +226,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b860fec02e62d2a4a9f014220b86dd09, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6cfd7ddc8d589534cb835390003b35c5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -340,6 +340,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0828124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -559
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712341437194124300, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -103
+      objectReference: {fileID: 0}
     - target: {fileID: 2873576794999514482, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -368,6 +380,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
+    - target: {fileID: 6242251198616904571, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7198324208143962583, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -408,13 +424,33 @@ PrefabInstance:
       propertyPath: sprites.Array.data[7]
       value: 
       objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
+    - target: {fileID: 7515589180700834592, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: 55658680c95fb9d46944a8f316cafb71, type: 3}
     - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 634
+      value: 612
       objectReference: {fileID: 0}
     - target: {fileID: 7904612886434692759, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -430,7 +466,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 69603dafda8370e44846b3c586dcca72, type: 3}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.data[0]
@@ -454,6 +490,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Names.Array.data[7]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[11]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[12]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[13]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[14]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[15]
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Names.Array.data[16]
       value: Narrator
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
@@ -501,6 +561,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[8]
+      value: '" "'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[9]
+      value: A ball of light materialized, revealing two figures locked in an eternal
+        embrace. The man held the woman close, their hands clasped tightly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[10]
+      value: She rested her head on his heart, a smile never leaving her lips.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[11]
+      value: "Doves emerged from the light, transforming into young men\u2014the
+        Erotes, minor attendants of Aphrodite."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[12]
+      value: The main one, resembling the woman, carried a pink bow and arrow. Pearls
+        adorned their bodies, echoing the woman's elegance.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[13]
+      value: 'The dominant man, his face etched with agony, calmed himself. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[14]
+      value: 'A spear materialized, and he sat on the tile floor, adorned in bespoke
+        golden armor. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[15]
+      value: His long black hair was stained with blood.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[16]
+      value: In an instant, the divine presence filled the room with awe and reverence,
+        leaving the servant breathless in their presence.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: Sentences.Array.data[17]
       value: '" "'
       objectReference: {fileID: 0}
     - target: {fileID: 8818448439940986337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
@@ -585,7 +686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: sprites.Array.data[1]
@@ -615,6 +716,42 @@ PrefabInstance:
       propertyPath: sprites.Array.data[7]
       value: 
       objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: af64bfb77b93e0e4da615e976497b68c, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+    - target: {fileID: 8899480237511131081, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: sprites.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
