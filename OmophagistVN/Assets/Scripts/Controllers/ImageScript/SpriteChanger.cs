@@ -250,5 +250,13 @@ public class SpriteChanger : MonoBehaviour
         {
             image.sprite = sprites[0];
         }
+
+
+        // Scene : FollowUpBadEnding
+
+        if (SceneName == "BadEnding2" && index == 1)
+        {
+            image.sprite = sprites[0];
+        }
     }
 }

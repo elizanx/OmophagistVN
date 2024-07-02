@@ -29,9 +29,14 @@ public class MainMenuSCR : MonoBehaviour
 
 
     //Scene: BadEnding
-    public void GoToBadEnding()
+    public void GoToBadEnding2()
     {
-        SceneManager.LoadScene("BadEnding");
+        SceneManager.LoadScene("BadEnding2");
+    }
+
+    public void GoToBadEnding3()
+    {
+        SceneManager.LoadScene("BadEnding3");
     }
 
 
