@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Keuze10.unity
     guid: 980a82cf570e79048a120a08d4513a8a
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: b021edbfca2218f42be6468cd9652465
+  - enabled: 1
+    path: Assets/Scenes/BadEndingFollowUp.unity
+    guid: 5f7e3a251a1c747418ef2ce84ee2e192
   m_configObjects: {}

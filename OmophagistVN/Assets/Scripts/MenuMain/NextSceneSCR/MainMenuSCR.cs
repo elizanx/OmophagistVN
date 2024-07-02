@@ -20,9 +20,27 @@ public class MainMenuSCR : MonoBehaviour
     {
         SceneManager.LoadScene("Dialogue");
     }
+
+
+
+
+
+
+
+
+    //Scene: BadEnding
+    public void GoToBadEnding()
+    {
+        SceneManager.LoadScene("BadEnding");
+    }
+
+
+
     public void Quit()
     {
         Application.Quit();
         
     }
+
+   
 }

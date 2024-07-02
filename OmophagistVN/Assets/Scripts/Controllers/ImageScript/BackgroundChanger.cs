@@ -251,6 +251,18 @@ public class BackgroundChanger : MonoBehaviour
             {
                 EersteKnopUit();
             }
+
+
+
+
+
+
+
+        //Scene: BadEnding
+        if (SceneName == "BadEnding" && index == 9) 
+        {
+            EersteKnop();
+        }
     }
 }
 

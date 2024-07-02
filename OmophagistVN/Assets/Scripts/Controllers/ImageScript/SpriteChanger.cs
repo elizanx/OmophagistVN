@@ -236,5 +236,19 @@ public class SpriteChanger : MonoBehaviour
         {
             image.sprite = sprites[5];
         }
+
+
+
+
+
+
+
+
+        // Scene : BadEnding
+
+        if (SceneName == "BadEnding" && index == 1) 
+        {
+            image.sprite = sprites[0];
+        }
     }
 }
