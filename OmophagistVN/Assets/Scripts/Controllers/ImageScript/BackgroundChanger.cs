@@ -26,17 +26,6 @@ public class BackgroundChanger : MonoBehaviour
         SceneName = SceneManager.GetActiveScene().name;
         KnoppenUit();
 
-        //Scene: BadEnding
-        if (SceneName == "BadEnding")
-        {
-            image.sprite = backgrounds[0];
-        }
-
-        //Scene: FollowUpBadEnding
-        if (SceneName == "BadEnding2")
-        {
-            image.sprite = backgrounds[0];
-        }
     }
 
     // Update is called once per frame
@@ -90,16 +79,6 @@ public class BackgroundChanger : MonoBehaviour
         void EersteKnopUit()
         {
             Knop1.gameObject.SetActive(false);
-        }
-        
-        void TweedeKnopAan()
-        {
-            Knop2.gameObject.SetActive(true);
-        }
-
-        void TweedeKnopUit() 
-        {
-            Knop2.gameObject.SetActive(false);
         }
 
 
@@ -280,26 +259,10 @@ public class BackgroundChanger : MonoBehaviour
 
 
         //Scene: BadEnding
-       
-
         if (SceneName == "BadEnding" && index == 9) 
         {
-         
-            TweedeKnopAan();
+            EersteKnop();
         }
-
-
-
-
-        //Scene: FollowUpBadEnding
-
-
-        if (SceneName == "BadEnding2" && index == 16)
-        {
-
-            TweedeKnopAan();
-        }
-
     }
 }
 
