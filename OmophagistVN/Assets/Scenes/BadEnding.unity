@@ -152,6 +152,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 896578566156897033, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -188,6 +189,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: MainMenuSCR, Assembly-CSharp
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of e3aa9c8 (BadEndingAndBadEnding2)
 =======
 >>>>>>> parent of e3aa9c8 (BadEndingAndBadEnding2)
     - target: {fileID: 1605740134054432621, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
@@ -561,12 +564,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_RemovedGameObjects:
     - {fileID: 2131361059668549651, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
 =======
+=======
+>>>>>>> parent of e3aa9c8 (BadEndingAndBadEnding2)
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
