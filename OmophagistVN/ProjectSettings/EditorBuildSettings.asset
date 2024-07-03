@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BadEndingFollowUp.unity
 >>>>>>> parent of e3aa9c8 (BadEndingAndBadEnding2)
     guid: 5f7e3a251a1c747418ef2ce84ee2e192
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BadEnding3.unity
     guid: bd6b137d43983b54b862c5fe5fd074e8
   m_configObjects: {}
