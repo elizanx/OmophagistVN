@@ -26,6 +26,26 @@ public class BackgroundChanger : MonoBehaviour
         SceneName = SceneManager.GetActiveScene().name;
         KnoppenUit();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //Scene: RebellionStart
+        if (SceneName == "RebellionStart")
+        {
+            image.sprite = backgrounds[0];
+        }
+
     }
 
     // Update is called once per frame
@@ -290,10 +310,90 @@ public class BackgroundChanger : MonoBehaviour
             }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //Scene: BadEnding
-        if (SceneName == "BadEnding" && index == 9) 
+        if (SceneName == "RebellionStart" && index == 9) 
             {
-                EersteKnop();
+                TweedeKnop();
             }
     }
 }

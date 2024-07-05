@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RebellionStart.unity
+    guid: b021edbfca2218f42be6468cd9652465
+  - enabled: 1
+    path: Assets/Scenes/RebellionNight.unity
+    guid: 12b82876af6b6f9428c4e93b63996616
   m_configObjects: {}

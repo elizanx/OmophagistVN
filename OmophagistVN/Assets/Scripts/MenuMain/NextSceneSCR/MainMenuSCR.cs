@@ -28,10 +28,15 @@ public class MainMenuSCR : MonoBehaviour
 
 
 
-    //Scene: BadEnding
-    public void GoToBadEnding()
+    //Scene: RebellionStart
+    public void GoToRebellionStart()
     {
-        SceneManager.LoadScene("BadEnding");
+        SceneManager.LoadScene("RebellionStart");
+    }
+
+    public void OnCanvasGroupChanged()
+    {
+        SceneManager.LoadScene("RebellionNight");
     }
 
 
