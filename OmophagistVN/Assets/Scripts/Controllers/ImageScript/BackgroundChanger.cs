@@ -92,7 +92,7 @@ public class BackgroundChanger : MonoBehaviour
             Knop2.gameObject.SetActive(false);
         }
 
-    void KnoppenUit()
+        void KnoppenUit()
         {
             Knop1.gameObject.SetActive(false);
             Knop2.gameObject.SetActive(false);
