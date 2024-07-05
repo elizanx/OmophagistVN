@@ -4,11 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Keuze1.unity
-    guid: 21a69f34784ff394b88efa8d8e268ac3
-  - enabled: 1
-    path: Assets/Scenes/BadEnding.unity
-    guid: b021edbfca2218f42be6468cd9652465
+  m_Scenes: []
   m_configObjects: {}

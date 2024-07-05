@@ -80,7 +80,17 @@ public class BackgroundChanger : MonoBehaviour
         {
             Knop1.gameObject.SetActive(false);
         }
+        
+        
+        void TweedeKnop()
+        {
+            Knop2.gameObject.SetActive(true);
+        }
 
+        void TweedeKnopUit()
+        {
+            Knop2.gameObject.SetActive(false);
+        }
 
         void KnoppenUit()
         {
@@ -106,16 +116,13 @@ public class BackgroundChanger : MonoBehaviour
 
             if (SceneName == "Dialogue" && index == 2)
             {
-                //Debug.Log("bgchange");
                 image.sprite = backgrounds[0];
-
             }
 
 
             if (SceneName == "Dialogue" && index == 3)
             {
                 //Debug.Log("Dit is de 3e zin");
-                image.sprite = backgrounds[3];
                 EersteKnop();
             }
 
@@ -123,16 +130,11 @@ public class BackgroundChanger : MonoBehaviour
             if (SceneName == "Dialogue" && index == 4)
             {
                 Debug.Log("Zin 4/ Interactief button");
-                image.sprite = backgrounds[2];
                 EersteKnopUit();
             }
 
-
-           
-
-
-            //Scene: Keuze1
-            if (SceneName == "Dialogue" && index == 7)
+            //Scene: Dialogue -> Keuze1
+            if (SceneName == "Dialogue" && index == 8)
             {
                 SceneManager.LoadScene("Keuze1");
             }
@@ -140,20 +142,18 @@ public class BackgroundChanger : MonoBehaviour
             if (SceneName == "Keuze1" && index == 5)
             {
                 Debug.Log("Werkt dit?");
-                image.sprite = backgrounds[0];
                 EersteKnop();
             }
 
             if (SceneName == "Keuze1" && index == 6)
             {
                 Debug.Log("Werkt dit?");
-                image.sprite = backgrounds[0];
                 EersteKnopUit();
             }
 
        
-             //Scene: Keuze2
-            if (SceneName == "Keuze1" && index == 7)
+             //Scene: Keuze1 -> Keuze2
+            if (SceneName == "Keuze1" && index == 6)
             {
                 SceneManager.LoadScene("Keuze2");
             }
@@ -169,7 +169,7 @@ public class BackgroundChanger : MonoBehaviour
             }
 
 
-            //Scene: Keuze3
+            //Scene: Keuze2 -> Keuze3
             if (SceneName == "Keuze2" && index == 12)
             {
                 SceneManager.LoadScene("Keuze3");
@@ -185,7 +185,7 @@ public class BackgroundChanger : MonoBehaviour
                 EersteKnopUit();
             }
 
-            //Scene: Keuze4
+            //Scene: Keuze3 -> Keuze4
             if (SceneName == "Keuze3" && index == 24)
             {
                 SceneManager.LoadScene("Keuze4");
@@ -202,13 +202,18 @@ public class BackgroundChanger : MonoBehaviour
                 EersteKnopUit();
             }
 
-            //Scene: Keuze5
+            if (SceneName == "Keuze4" && index == 3)
+            {
+                image.sprite = backgrounds[3];
+            }
+
+            //Scene: Keuze4 -> Keuze5
             if (SceneName == "Keuze4" && index == 11)
             {
                 SceneManager.LoadScene("Keuze5");
             }
 
-            //Scene: Keuze6
+            //Scene: Keuze5 -> Keuze6
             if (SceneName == "Keuze5" && index == 8)
             {
                 SceneManager.LoadScene("Keuze6");
@@ -224,19 +229,25 @@ public class BackgroundChanger : MonoBehaviour
                 EersteKnopUit();
             }
 
-            //Scene: Keuze7
+            //Scene Keuze6 -> Keuze7
+            if (SceneName == "Keuze6" && index == 8)
+            {
+                SceneManager.LoadScene("Keuze7");
+            }
+
+            //Scene: Keuze7 -> Keuze8
             if (SceneName == "Keuze7" && index == 16)
             {
                 SceneManager.LoadScene("Keuze8");
             }
 
-            //Scene: Keuze8
+            //Scene: Keuze8 -> Keuze9
             if (SceneName == "Keuze8" && index == 13)
             {
                 SceneManager.LoadScene("Keuze9");
             }
 
-            //Scene: Keuze9
+            //Scene: Keuze9 -> Keuze10
             if (SceneName == "Keuze9" && index == 14)
             {
                 SceneManager.LoadScene("Keuze10");
@@ -252,17 +263,38 @@ public class BackgroundChanger : MonoBehaviour
                 EersteKnopUit();
             }
 
+            //Scene: Keuze10 -> Keuze11
+            if (SceneName == "Keuze10" && index == 26)
+            {
+                SceneManager.LoadScene("Keuze11");
+            }
 
+            if (SceneName == "Keuze11" && index == 0)
+            {
+                image.sprite = backgrounds[0];
+            }
 
+            if (SceneName == "Keuze11" && index == 4)
+            {
+                image.sprite = backgrounds[4];
+            }
 
+            if (SceneName == "Keuze11" && index == 22)
+            {
+                TweedeKnop();
+            }
 
+            if (SceneName == "Keuze11" && index == 23)
+            {
+                TweedeKnopUit();
+            }
 
 
         //Scene: BadEnding
         if (SceneName == "BadEnding" && index == 9) 
-        {
-            EersteKnop();
-        }
+            {
+                EersteKnop();
+            }
     }
 }
 
