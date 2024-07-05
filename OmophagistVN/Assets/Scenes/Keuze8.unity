@@ -556,6 +556,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Feast
       objectReference: {fileID: 0}
+    - target: {fileID: 2644475501949705337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644475501949705337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644475501949705337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -590.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644475501949705337, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -275.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2873576794999514482, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -567,6 +583,18 @@ PrefabInstance:
     - target: {fileID: 4597965843214370542, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: Prologue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438178092406328235, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438178092406328235, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_margin.z
+      value: -150.7759
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438178092406328235, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5555258861700148055, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_AnchorMax.y
