@@ -16,7 +16,7 @@ public class Dialogue : MonoBehaviour
     public string[] Names;
 
     public static Action<int>OnSentenceIncrement;
-
+    private bool DialogueActive = true;
 
 
     void Start()
@@ -24,9 +24,19 @@ public class Dialogue : MonoBehaviour
         nameBox.text = Names[0];
     }
 
+    public void PauseTheGame()
+    {
+        DialogueActive = false;
+    }
+
+    public void ResumeTheGame()
+    {
+        DialogueActive = true;
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (DialogueActive && (Input.GetKeyDown(KeyCode.Space)))
         {
             NextSentence();           
         }
@@ -59,4 +69,7 @@ public class Dialogue : MonoBehaviour
 
         Index++;
     }
+
+
+  
 }
