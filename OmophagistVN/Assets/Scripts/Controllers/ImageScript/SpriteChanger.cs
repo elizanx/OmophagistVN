@@ -435,5 +435,13 @@ public class SpriteChanger : MonoBehaviour
         {
             image.sprite = sprites[3];
         }
+
+
+        //Scene: Victory...OrNot
+
+        if (SceneName == "Victory...OrNot" && index == 5)
+        {
+            image.sprite = sprites[1];
+        }
     }
 }

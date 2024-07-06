@@ -23,6 +23,8 @@ public class BackgroundChanger : MonoBehaviour
     public AudioSource BattleGroundMusic;
     public AudioSource SwordsSound;
     public AudioSource AmbientAudio;
+    public AudioSource ManScream;
+    public AudioSource HeavyBreathing;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +32,7 @@ public class BackgroundChanger : MonoBehaviour
         Dialogue.OnSentenceIncrement += ChangeBackground;
         image = GetComponent<Image>();
         SceneName = SceneManager.GetActiveScene().name;
-        
+
         KnoppenUit();
 
 
@@ -58,6 +60,15 @@ public class BackgroundChanger : MonoBehaviour
         if (!AmbientAudio.isPlaying)
         {
             AmbientAudio.Play();
+        }
+
+        if (ManScream.isPlaying)
+        {
+            ManScream.Stop();
+        }
+        if (HeavyBreathing.isPlaying)
+        {
+            HeavyBreathing.Stop();
         }
 
 
@@ -88,13 +99,19 @@ public class BackgroundChanger : MonoBehaviour
         {
             image.sprite = backgrounds[0];
         }
-       
 
+        //Scene: TheWayToLycaon
         if (SceneName == "TheWayToLycaon")
         {
             image.sprite = backgrounds[0];
         }
-        
+
+
+        //Scene: Victory...OrNot
+        if (SceneName == "Victory...OrNot")
+        {
+            image.sprite = backgrounds[0];
+        }
     }
 
     // Update is called once per frame
@@ -512,6 +529,28 @@ public class BackgroundChanger : MonoBehaviour
             TweedeKnop();
         }
 
+
+        //Scene: Victory...OrNot
+
+        if (SceneName == "Victory...OrNot" && index == 0)
+        {
+            ManScream.Play();
+        }
+
+        if (SceneName == "Victory...OrNot" && index == 1)
+        {
+            HeavyBreathing.Play();
+        }
+
+        if (SceneName == "Victory...OrNot" && index == 5)
+        {
+            image.sprite = backgrounds[1];
+        }
+
+        if (SceneName == "Victory...OrNot" && index == 12)
+        {
+            SceneManager.LoadScene("BadEnding");
+        }
     }
 }
 

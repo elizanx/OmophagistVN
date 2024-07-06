@@ -59,6 +59,13 @@ public class MainMenuSCR : MonoBehaviour
         SceneManager.LoadScene("Victory...OrNot");
     }
 
+
+    //Scene: BadEnding
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("(1)MainMenu");
+    }
+    
     public void Quit()
     {
         Application.Quit();
