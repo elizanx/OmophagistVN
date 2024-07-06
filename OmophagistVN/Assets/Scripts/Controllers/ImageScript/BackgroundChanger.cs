@@ -18,19 +18,47 @@ public class BackgroundChanger : MonoBehaviour
     public GameObject Knop2;
     public GameObject Knop3;
 
+    public AudioSource heartbeatAudio;
+    public AudioSource WhispersAudio;
+    public AudioSource BattleGroundMusic;
+    public AudioSource SwordsSound;
+    public AudioSource AmbientAudio;
+
     // Start is called before the first frame update
     void Start()
     {
         Dialogue.OnSentenceIncrement += ChangeBackground;
         image = GetComponent<Image>();
         SceneName = SceneManager.GetActiveScene().name;
+        
         KnoppenUit();
 
 
 
+        if (heartbeatAudio.isPlaying)
+        {
+            heartbeatAudio.Stop();
+        }
 
+        if (WhispersAudio.isPlaying)
+        {
+            WhispersAudio.Stop();
+        }
 
+        if (BattleGroundMusic.isPlaying)
+        {
+            BattleGroundMusic.Stop();
+        }
 
+        if (SwordsSound.isPlaying)
+        {
+            SwordsSound.Stop();
+        }
+
+        if (!AmbientAudio.isPlaying)
+        {
+            AmbientAudio.Play();
+        }
 
 
 
@@ -46,6 +74,27 @@ public class BackgroundChanger : MonoBehaviour
             image.sprite = backgrounds[0];
         }
 
+
+
+        //Scene: RebellionNight
+        if (SceneName == "RebellionNight")
+        {
+            image.sprite = backgrounds[0];
+        }
+
+
+        //Scene: RebellionPrepare
+        if (SceneName == "RebellionPrepare")
+        {
+            image.sprite = backgrounds[0];
+        }
+       
+
+        if (SceneName == "TheWayToLycaon")
+        {
+            image.sprite = backgrounds[0];
+        }
+        
     }
 
     // Update is called once per frame
@@ -391,10 +440,78 @@ public class BackgroundChanger : MonoBehaviour
 
 
         //Scene: BadEnding
-        if (SceneName == "RebellionStart" && index == 9) 
+        if (SceneName == "RebellionStart" && index == 10) 
             {
                 TweedeKnop();
             }
+
+
+        //Scene: RebellionNight
+        if (SceneName == "RebellionNight" && index == 7)
+        {
+            TweedeKnop();
+        }
+
+
+        //Scene: RebellionPrepare
+
+        if (SceneName == "RebellionPrepare" && index == 2)
+        {
+            if (!WhispersAudio.isPlaying)
+            {
+                WhispersAudio.Play();
+            }
+        }
+
+        if (SceneName == "RebellionPrepare" && index == 3)
+        {
+            if (!heartbeatAudio.isPlaying)
+            {
+                heartbeatAudio.Play();
+            }
+        }
+
+       
+
+
+        if (SceneName == "RebellionPrepare" && index == 17)
+        {
+            TweedeKnop();
+        }
+
+
+
+        //Scene: TheWayToLycaon
+        if (SceneName == "TheWayToLycaon" && index == 2)
+        {
+            image.sprite = backgrounds[1];
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 2)
+        {
+            if (AmbientAudio.isPlaying)
+            {
+                AmbientAudio.Stop();
+            }
+
+            if (!BattleGroundMusic.isPlaying)
+            {
+                BattleGroundMusic.Play();
+            }
+        }
+        if (SceneName == "TheWayToLycaon" && index == 9)
+        {
+            if (!SwordsSound.isPlaying)
+            {
+                SwordsSound.Play();
+            }
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 19)
+        {
+            TweedeKnop();
+        }
+
     }
 }
 

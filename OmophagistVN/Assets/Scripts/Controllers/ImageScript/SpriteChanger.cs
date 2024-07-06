@@ -5,6 +5,7 @@ using UnityEngineInternal;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Reflection;
 
 public class SpriteChanger : MonoBehaviour
 {
@@ -25,9 +26,7 @@ public class SpriteChanger : MonoBehaviour
 
 
 
-        //Scene: BadEnding
         
-
     }
 
     // Update is called once per frame
@@ -390,17 +389,51 @@ public class SpriteChanger : MonoBehaviour
 
 
 
-
-        // Scene : BadEnding
-        if (SceneName == "BadEnding" && index ==1 )
+        // Scene : RebellionStart
+        if (SceneName == "RebellionStart")
         {
-            image.sprite = sprites[1];
+            image.sprite = sprites[0];
         }
         
-        if (SceneName == "BadEnding" && index == 8)
+        
+        if (SceneName == "RebellionStart" && index == 8)
         {
             image.sprite = sprites[2];
         }
 
+
+        //Scene: RebellionNight
+
+        if (SceneName == "RebellionNight" && index == 0) 
+        {
+            image.sprite = sprites[0];
+        }
+
+
+        //Scene: TheWayToLycaon
+        if (SceneName == "TheWayToLycaon" && index == 2)
+        {
+            image.sprite = sprites[1];
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 5)
+        {
+            image.sprite = sprites[2];
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 6)
+        {
+            image.sprite = sprites[3];
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 8)
+        {
+            image.sprite = sprites[4];
+        }
+
+        if (SceneName == "TheWayToLycaon" && index == 9)
+        {
+            image.sprite = sprites[3];
+        }
     }
 }

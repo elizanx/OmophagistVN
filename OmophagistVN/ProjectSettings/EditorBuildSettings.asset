@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RebellionNight.unity
     guid: 12b82876af6b6f9428c4e93b63996616
+  - enabled: 1
+    path: Assets/Scenes/RebellionPrepare.unity
+    guid: 073995f67c20edd41a41bdbbbcd3ad1e
+  - enabled: 1
+    path: Assets/Scenes/TheWayToLycaon.unity
+    guid: 676752a77ee2ede47acaa07417768e76
   m_configObjects: {}

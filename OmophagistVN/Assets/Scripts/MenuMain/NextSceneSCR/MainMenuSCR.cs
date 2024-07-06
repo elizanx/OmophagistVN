@@ -34,12 +34,30 @@ public class MainMenuSCR : MonoBehaviour
         SceneManager.LoadScene("RebellionStart");
     }
 
-    public void OnCanvasGroupChanged()
+    public void GoToRebellionsNight()
     {
         SceneManager.LoadScene("RebellionNight");
     }
 
 
+    //Scene: RebellionNight
+    public void GoToRebellionPrepare()
+    {
+        SceneManager.LoadScene("RebellionPrepare");
+    }
+
+
+    //Scene: RebellionPrepare
+    public void GoToTheWayToLycaon()
+    {
+        SceneManager.LoadScene("TheWayToLycaon");
+    }
+
+    //Scene: TheWayToLycaon
+    public void GoToFakeVictory()
+    {
+        SceneManager.LoadScene("Victory...OrNot");
+    }
 
     public void Quit()
     {
