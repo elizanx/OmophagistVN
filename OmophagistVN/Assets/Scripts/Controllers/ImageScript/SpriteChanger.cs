@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngineInternal;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class SpriteChanger : MonoBehaviour
 {
@@ -16,10 +17,17 @@ public class SpriteChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         Dialogue.OnSentenceIncrement += ChangeSprites;
         image = GetComponent<Image>();
         image.sprite = sprites[0];
         SceneName = SceneManager.GetActiveScene().name;
+
+
+
+        //Scene: BadEnding
+        
+
     }
 
     // Update is called once per frame
@@ -328,11 +336,71 @@ public class SpriteChanger : MonoBehaviour
 
 
 
-        // Scene : BadEnding
 
-        if (SceneName == "BadEnding" && index == 1) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Scene : BadEnding
+        if (SceneName == "BadEnding" && index ==1 )
         {
-            image.sprite = sprites[0];
+            image.sprite = sprites[1];
         }
+        
+        if (SceneName == "BadEnding" && index == 8)
+        {
+            image.sprite = sprites[2];
+        }
+
     }
 }
