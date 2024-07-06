@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheWayToLycaon.unity
     guid: 676752a77ee2ede47acaa07417768e76
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: c284f4d9630f14f468614273048f5c33
+  - enabled: 1
+    path: Assets/Scenes/(1)MainMenu.unity
+    guid: 464aae9f02154d64faeefe4af77938dc
   m_configObjects: {}
