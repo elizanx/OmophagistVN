@@ -286,7 +286,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
 --- !u!114 &431368820 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7964324359459576038, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2614097476354001856, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
   m_PrefabInstance: {fileID: 431368819}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1137,7 +1137,7 @@ PrefabInstance:
     - target: {fileID: 8250215919568901460, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 431368820}
     - target: {fileID: 8250215919568901460, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: Prologue
