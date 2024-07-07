@@ -457,6 +457,19 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 21300000, guid: c90e23e4a090a5544bc417ca5800718f, type: 3}
   - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
+  - {fileID: 21300000, guid: dd30c432f50e5854297fbd86633c5ec8, type: 3}
   Knop1: {fileID: 684523859}
   Knop2: {fileID: 780654453}
   Knop3: {fileID: 1172204881}
@@ -1462,6 +1475,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
   - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
   - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
+  - {fileID: 21300000, guid: 788e5e46165925b458f5bc6317a42e6b, type: 3}
 --- !u!114 &537579768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,6 +2006,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 92ffa771de72aee409c2825a77ec4244, type: 3}
   - {fileID: 21300000, guid: 92ffa771de72aee409c2825a77ec4244, type: 3}
   - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
+  - {fileID: 21300000, guid: 8076e5d7310dc714392810e96f6432ae, type: 3}
 --- !u!114 &691981160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2240,7 +2273,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1890615608}
         m_TargetAssemblyTypeName: MainMenuSCR, Assembly-CSharp
-        m_MethodName: GoToTesting
+        m_MethodName: GoToFakeVictory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3467,6 +3500,22 @@ MonoBehaviour:
   - He is still my father, but he is also the symbol of all that has wronged me and
     my people.
   - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
   DialogueSpeed: 0
   nameBox: {fileID: 807396000}
   Names:
@@ -3489,7 +3538,23 @@ MonoBehaviour:
   - Narrator
   - Narrator
   - Narrator
-  - Narrator
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
+  - ..
 --- !u!114 &1117602141
 MonoBehaviour:
   m_ObjectHideFlags: 0

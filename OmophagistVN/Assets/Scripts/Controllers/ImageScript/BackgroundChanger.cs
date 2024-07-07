@@ -37,39 +37,41 @@ public class BackgroundChanger : MonoBehaviour
 
 
 
-        if (heartbeatAudio.isPlaying)
+        if (heartbeatAudio != null && heartbeatAudio.isPlaying)
         {
             heartbeatAudio.Stop();
         }
 
-        if (WhispersAudio.isPlaying)
+        if (WhispersAudio != null && WhispersAudio.isPlaying)
         {
             WhispersAudio.Stop();
         }
 
-        if (BattleGroundMusic.isPlaying)
+        if (BattleGroundMusic != null && BattleGroundMusic.isPlaying)
         {
             BattleGroundMusic.Stop();
         }
 
-        if (SwordsSound.isPlaying)
+        if (SwordsSound != null && SwordsSound.isPlaying)
         {
             SwordsSound.Stop();
         }
 
-        if (!AmbientAudio.isPlaying)
+        if (AmbientAudio != null && !AmbientAudio.isPlaying)
         {
-            AmbientAudio.Play();
+            AmbientAudio.Stop();
         }
 
-        if (ManScream.isPlaying)
+        if (ManScream != null && ManScream.isPlaying)
         {
             ManScream.Stop();
         }
-        if (HeavyBreathing.isPlaying)
+
+        if (HeavyBreathing != null && HeavyBreathing.isPlaying)
         {
             HeavyBreathing.Stop();
         }
+    
 
 
 
@@ -155,48 +157,74 @@ public class BackgroundChanger : MonoBehaviour
     // Tip voor Joyce: 
     // index == 0 = index = eerste zin.
 
-
-
-        void EersteKnop()
-        {
-            Knop1.gameObject.SetActive(true);
-        }
-
-        void EersteKnopUit()
+    void EersteKnop()
+    {
+        if (Knop1 != null)
         {
             Knop1.gameObject.SetActive(false);
         }
-        
-        
-        void TweedeKnop()
+    }
+    void EersteKnopUit()
+    {
+        if (Knop1 != null)
+        {
+            Knop1.gameObject.SetActive(false);
+        }
+    }
+
+    void TweedeKnop()
+    {
+        if (Knop2 != null)
         {
             Knop2.gameObject.SetActive(true);
         }
+    }
 
-        void TweedeKnopUit()
+    void TweedeKnopUit()
+    {
+        if (Knop2 != null)
         {
             Knop2.gameObject.SetActive(false);
         }
+    }
 
-        void KnoppenUit()
+    void KnoppenUit()
+    {
+        if (Knop1 != null)
         {
             Knop1.gameObject.SetActive(false);
+        }
+        if (Knop2 != null)
+        {
             Knop2.gameObject.SetActive(false);
+        }
+        if (Knop3 != null)
+        {
             Knop3.gameObject.SetActive(false);
         }
+    }
 
-        void KnoppenAan()
+    void KnoppenAan()
+    {
+        if (Knop1 != null)
         {
             Knop1.gameObject.SetActive(true);
+        }
+        if (Knop2 != null)
+        {
             Knop2.gameObject.SetActive(true);
+        }
+        if (Knop3 != null)
+        {
             Knop3.gameObject.SetActive(true);
         }
+    }
 
 
 
 
 
-        void ChangeBackground(int index)
+    void ChangeBackground(int index)
         {
 
 
@@ -477,6 +505,14 @@ public class BackgroundChanger : MonoBehaviour
             if (!WhispersAudio.isPlaying)
             {
                 WhispersAudio.Play();
+            }
+        }
+
+        if (SceneName == "RebellionPrepare" && index == 6)
+        {
+            if (WhispersAudio.isPlaying)
+            {
+                WhispersAudio.Stop();
             }
         }
 
