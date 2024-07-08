@@ -289,6 +289,113 @@ public class BackgroundChanger : MonoBehaviour
                 EersteKnopUit();
             }
 
+<<<<<<< Updated upstream
+=======
+            //Scene: Keuze10 -> Keuze11
+            if (SceneName == "Keuze10" && index == 26)
+            {
+                SceneManager.LoadScene("Keuze11");
+            }
+
+            if (SceneName == "Keuze11" && index == 0)
+            {
+                image.sprite = backgrounds[0];
+            }
+
+            if (SceneName == "Keuze11" && index == 4)
+            {
+                image.sprite = backgrounds[4];
+            }
+
+            if (SceneName == "Keuze11" && index == 22)
+            {
+                TweedeKnop();
+            }
+
+            if (SceneName == "Keuze11" && index == 23)
+            {
+                TweedeKnopUit();
+            }
+
+            //Scene Keuze11 -> Rebellionstart
+            if (SceneName == "Keuze11" && index == 23)
+            {
+                SceneManager.LoadScene("RebellionStart");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
 
 
