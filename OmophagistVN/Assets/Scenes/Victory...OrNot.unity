@@ -2161,8 +2161,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
+  m_sharedMaterial: {fileID: 7264121439728414250, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4143,8 +4143,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Make the final blow
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
+  m_sharedMaterial: {fileID: 7264121439728414250, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4514,8 +4514,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
+  m_sharedMaterial: {fileID: 7264121439728414250, guid: c38c3488227bb6349ba43f8bb375243b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5948,9 +5948,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3181528161807956395, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4756445936314104067, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
       propertyPath: m_Name
       value: ControlPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414735155051385097, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8666410291685346680, guid: bc70feb4db56bac4a9d71af13ab3511a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
