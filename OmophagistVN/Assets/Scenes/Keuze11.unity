@@ -1365,7 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[22]
-      value: Leave the room
+      value: Leave the dining room
       objectReference: {fileID: 0}
     - target: {fileID: 8316070187405630452, guid: e2b683b191b4732479b010f94614e3bf, type: 3}
       propertyPath: Sentences.Array.data[23]
